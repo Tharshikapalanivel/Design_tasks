@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="jstry.css">
+        <title>Job Roles</title>
+    </head>
+    <body>
+    	<div class="but">
+        <button class="but1" id="button1" onclick="detailed()">Detailed view</button>
+        <button class="but2" id="button2" onclick="card()">Card View</button>
+        </div> 
+       <div class="full">
+        <div class="containerf" id="container_f">
+            <div class="container1" id="container_1">
+                <div class="box1" id="box_1">
+                    <img class="image" id="ima" src="design1.jpg" height="100px">
+                </div>
+                <div class="box2" id="box_2">
+                    <span class="l1" id="l_1">UX Designer</span><br>
+                    <span class="l2" id="l_2" style="margin-right:9px" ; style="margin-left:29px">Dropbox</span><hr class="l2" id="l_2"><span class="l2" id="l_2" style="margin-left: 9px;">Warszawa</span>
+                    
+                </div>
+                <div class="b" id="buttons"> <div class="b1" id="remote">Remote   </div></div>
+                <div class="b" id="buttons"><div class="b2" id="sketch">Sketch</div></div>
+                <div class="price" id="p_rice">
+                    <span class="p1" id="p_1"> 8.8 - 13.7k PLN</span><br><span class="p2" id="p_2"> 2 Days ago</span>
+                    <br><br>
+                    <div class="apply" id="a_pply">
+                        <div class="a1" id="a_1"> Apply </div>
+                        <div class="a2" id="a_2"> Contacts</div>
+                        
+                    </div>
+                </div>
+                
+            </div>
+            <div class="container2" id="container_2">
+                <div class="box3" id="box_3">
+                    <img class="image2" id="ima2" src="design2.jpg" height="100px">
+                </div>
+                <div class="box4" id="box_4">
+                    <span class="l3" id="l_3">Product Designer</span><br>
+                    <span class="l4" id="l_4" style="margin-right:9px" ; style="margin-left:29px">Twitch</span><hr class="l4" id="l_4"><span class="l4" id="l_4" style="margin-left: 9px;">Wroclaw</span>
+                    
+                </div>
+                <div class="b3" id="b_3">Remote   </div>
+                <div class="price1" id="price_1">
+                    <span class="p3" id="p_3"> 8.2 - 13.5k PLN</span><br><span class="p4" id="p_4"> 2 Days ago</span>
+                    <br><br>
+                    <div class="applyf" id="apply_f">
+                        <div class="a1f" id="a_1f"> Apply </div>
+                        <div class="a2f" id="a_2f"> Contacts</div>
+                        
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        
+        </div>
+        <script>
+            function card()
+            {
+                var r=document.getElementById("container_1");
+                r.classList.replace("container1","container1s");
+                var r=document.getElementById("container_2");
+                r.classList.replace("container2","container2s");
+                var r=document.getElementById("container_f");
+                r.classList.replace("containerf","containers");
+                var r=document.getElementById("buttons");
+                r.classList.replace("b","bs");
+                var r=document.getElementById("ima");
+                r.classList.replace("image","images");
+                var r=document.getElementById("ima2");
+                r.classList.replace("image2","image2s");
+                var r=document.getElementById("box_2");
+                r.classList.replace("box2","box2s");
+                var r=document.getElementById("box_4");
+                r.classList.replace("box4","box4s");
+                var r=document.getElementById("l_1");
+                r.classList.replace("l1","l1s");
+                var r=document.getElementById("l_2");
+                r.classList.replace("l2","l2s");
+                var r=document.getElementById("l_3");
+                r.classList.replace("l_3","l3s");
+                var r=document.getElementById("l_4");
+                r.classList.replace("l4","l4s");
+                var r=document.getElementById("remote");
+                r.classList.replace("b1","b1s");
+                var r=document.getElementById("sketch");
+                r.classList.replace("b2","b2s");
+                var r=document.getElementById("b_3");
+                r.classList.replace("b3","b3s");
+                var r=document.getElementById("p_rice");
+                r.classList.replace("price","prices");
+                var r=document.getElementById("p_1");
+                r.classList.replace("p1","p1s");
+                var r=document.getElementById("p_2");
+                r.classList.replace("p2","p2s");
+                var r=document.getElementById("p_3");
+                r.classList.replace("p3","p3s");
+                var r=document.getElementById("p_4");
+                r.classList.replace("p4","p4s");
+                var r=document.getElementById("a_1");
+                r.classList.replace("a1","a1s");
+                var r=document.getElementById("a_2");
+                r.classList.replace("a2","a2s");
+                var r=document.getElementById("a_1f");
+                r.classList.replace("a1f","a1fs");
+                var r=document.getElementById("a_2f");
+                r.classList.replace("a2f","a2fs");
+                var r=document.getElementById("a_pply");
+                r.classList.replace("apply","applys");
+                var r=document.getElementById("apply_f");
+                r.classList.replace("applyf","applyfs");
+                var r=document.getElementById("price_1");
+                r.classList.replace("price1","price1s");
+                var r=document.getElementById("button1");
+                r.classList.replace("but1","but1s");
+                var r=document.getElementById("button2");
+                r.classList.replace("but2","but2s");
+                
+            }
+            function detailed()
+            {
+                var r=document.getElementById("container_1");
+                r.classList.replace("container1s","container1");
+                var r=document.getElementById("container_2");
+                r.classList.replace("container2s","container2");
+                var r=document.getElementById("container_f");
+                r.classList.replace("containers","containerf");
+                var r=document.getElementById("buttons");
+                r.classList.replace("bs","b");
+                var r=document.getElementById("ima");
+                r.classList.replace("images","image");
+                var r=document.getElementById("ima2");
+                r.classList.replace("image2s","image2");
+                var r=document.getElementById("box_2");
+                r.classList.replace("box2s","box2");
+                var r=document.getElementById("box_4");
+                r.classList.replace("box4s","box4");
+                var r=document.getElementById("l_1");
+                r.classList.replace("l1s","l1");
+                var r=document.getElementById("l_2");
+                r.classList.replace("l2s","l2");
+                var r=document.getElementById("l_3");
+                r.classList.replace("l3s","l_3");
+                var r=document.getElementById("l_4");
+                r.classList.replace("l4s","l4");
+                var r=document.getElementById("remote");
+                r.classList.replace("b1s","b1");
+                var r=document.getElementById("sketch");
+                r.classList.replace("b2s","b2");
+                var r=document.getElementById("b_3");
+                r.classList.replace("b3s","b3");
+                var r=document.getElementById("p_rice");
+                r.classList.replace("prices","price");
+                var r=document.getElementById("p_1");
+                r.classList.replace("p1s","p1");
+                var r=document.getElementById("p_2");
+                r.classList.replace("p2s","p2");
+                var r=document.getElementById("p_3");
+                r.classList.replace("p3s","p3");
+                var r=document.getElementById("p_4");
+                r.classList.replace("p4s","p4");
+                var r=document.getElementById("a_1");
+                r.classList.replace("a1s","a1");
+                var r=document.getElementById("a_2");
+                r.classList.replace("a2s","a2");
+                var r=document.getElementById("a_1f");
+                r.classList.replace("a1fs","a1f");
+                var r=document.getElementById("a_2f");
+                r.classList.replace("a2fs","a2f");
+                var r=document.getElementById("a_pply");
+                r.classList.replace("applys","apply");
+                var r=document.getElementById("apply_f");
+                r.classList.replace("applyfs","applyf");
+                var r=document.getElementById("price_1");
+                r.classList.replace("price1s","price1");
+                var r=document.getElementById("button1");
+                r.classList.replace("but1s","but1");
+                var r=document.getElementById("button2");
+                r.classList.replace("but2s","but2");
+                
+            }
+        </script>
+       
+    </body>
+  </html>
