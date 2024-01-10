@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebPage</title>
+</head>
+<style>
+.whole {
+    
+    height: 900px;
+    width: 1500px;
+    background-color: #F5F5F5;
+    display: flex;
+   
+   
+    
+    
+}
+
+.first,.first1,.first2 {
+    height: 258px;
+    width: 210px;
+    background-color: rgb(255, 255, 255);
+    margin-top: 140px;
+    padding: 10px;
+    margin-left: 20px;
+    
+    margin-bottom: 10px;
+    border: 10px solid rgb(255, 255, 255);
+    border-radius: 25px;
+}
+.first{
+    margin-left: 200px;
+}
+img{
+    display: block; /* Make the image a block element */
+    margin: auto;
+    
+    
+    
+}
+
+.a,.a1,.a2 {
+    color: black;
+    display: block; /* Make the image a block element */
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+
+.b,.b1,.b2 {
+    color: rgb(178, 173, 173);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   font-size: 12px;
+}
+.b span {
+    margin-bottom: 3px; /* Adjust the spacing between sentences */
+}
+.b2 span,.b1 span {
+    margin-bottom: 3px; /* Adjust the spacing between sentences */
+}
+hr {
+    border: 1px solid rgb(7, 114, 207); /* Change the color of the hr line */
+    margin: 20px 0; /* Adjust the spacing around the hr line */
+}
+.sub1,.sub2,.sub3{
+    height: 50px;
+    width: 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#2277C9;
+    
+    margin: auto; /* Center the .sub1 box horizontally */
+    border: 20px rgb(7, 114, 207);
+    border-radius: 25px;
+
+}
+.c,.c1,.c2{
+    color: white;
+    display: block;
+    text-align: center;
+}
+</style>
+<body>
+    <div class="whole">
+        <div class="first">
+            <img src="one.jpg" width="67">
+            <h3 class="a">Visualize it</h3>
+            <div class="b">
+                <span>Sample text.Click to select the text box.</span>
+                <span>Click again or double click to start</span>
+                <span>editing the text.</span>
+                
+            </div>
+            <hr>
+            <div class="sub1">
+                <p class="c">read more</p>
+            </div>
+
+        </div>
+        <div class="first1">
+            <img src="two.jpg" width="70">
+            <h3 class="a1">Create it</h3>
+            <div class="b1">
+                <span>Sample text.Click to select the text box.</span>
+                <span>Click again or double click to start</span>
+                <span>editing the text.</span>
+                
+            </div>
+            <hr>
+            <div class="sub2">
+                <p class="c1">read more</p>
+            </div>
+
+        </div>
+        <div class="first2">
+            <img src="three.jpg" width="70">
+            <h3 class="a2">Grow it</h3>
+            <div class="b2">
+                <span>Sample text.Click to select the text box.</span>
+                <span>Click again or double click to start</span>
+                <span>editing the text.</span>
+                
+            </div>
+            <hr>
+            <div class="sub3">
+                <p class="c2">read more</p>
+            </div>
+
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+     
+</body>
+</html>
