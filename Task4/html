@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="task4.css">
+</head>
+<body>
+	<div class=full>
+     <div class="one">
+        <div class="su">
+            <img src="design1.jpg">
+        </div>
+        <div class=".container">
+            <div class="h">
+                <h3>UX Designer</h3>
+                <div class="unite">
+                <div class="sub2"><p class="a">Remote</p></div>
+                <div class="sub3"><p class="b">Sketch</p></div></div>
+            </div>
+            <br>
+            <div class="sub4"><p class="c">Dropbox  <p class="d"> _ </p><p class="i"> Warszawa</p></div>
+        </div>
+        <br>
+        <div class="left">
+            <h4>8.8 - 13.7k PLN</h4>
+            <p class="hike">2 Days ago</p>
+            <div class="last">
+                <div class="sub5"><p class="x">Apply</p></div>
+                <div class="sub6"><p class="y">Contacts</p></div>
+            </div>
+
+
+
+
+        </div>
+        
+    </div>
+    <div class="two">
+        <div class="s1">
+            <img src="design2.jpg" >
+        </div>
+        <div class=".container1">
+            <div class="h1">
+                <h3>Product Designer</h3>
+                <div class="sub21"><p class="a1">Remote</p></div>
+                <br>
+            </div>
+            <div class="sub41"><p class="c1">Twitch  <p class="d1"> _ </p><p class="i"> Wroclaw</p></div>
+        </div>
+        <br>
+        <div class="left1">
+            <h4>8.2 - 13.5k PLN</h4>
+            <p class="hike1">2 Days ago</p>
+            <div class="last1">
+                <div class="sub51"><p class="x1">Apply</p></div>
+                <div class="sub61"><p class="y1">Contacts</p></div>
+            </div>
+
+
+
+
+        </div>
+        
+    </div>
+    </div>
+</body>
+  </html>
